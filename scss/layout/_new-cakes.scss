@@ -1,0 +1,477 @@
+
+#new-cakes{
+    width: 100%;
+    
+    .wrapper{
+        padding-top: 15px;
+        .new-cakes__up{
+            @include font-style(20px, $ff-JostRegular, $color-black);
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-bottom: 59px;
+        }
+        .new-cakes__links{
+            @include font-style(20px, $ff-JostRegular, $color-black);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            &--all{
+                color: $color-black;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .new-cakes__items, .new-cakes__items--second, .new-cakes__items--third, .new-cakes__items--fourth{
+            display: flex;
+            justify-content: space-between;
+           
+        }
+    }
+    
+}
+.mt{
+    margin-top: 100px;
+}
+.cake__item{
+    max-width: 300px;
+  
+    &--img{ 
+        img{
+            width: 100%;
+            
+        }
+    }
+    &--body{
+        padding: 10px;
+        &-name{
+            @include font-style(20px, $ff-JostRegular, $color-black);
+            margin-bottom: 10px;
+          
+        }
+        &-rate{
+            @include font-style(16px, $ff-JostRegular, $color-grey);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            span{
+                display: flex;
+                align-items: center;
+            }
+        }
+        &-price{
+            @include font-style(24px, $ff-JostMedium, $color-black);
+            span{
+                font-size: 14px;
+                color: $color-grey;
+                margin-left: 10px;
+            }
+        }
+        &-btn{
+            display: none;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px)  {
+    #new-cakes{
+        width: 100%;
+        
+        .wrapper{
+            padding-top: 15px;
+            .new-cakes__up{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin-bottom: 59px;
+            }
+            .new-cakes__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .new-cakes__items, .new-cakes__items--second, .new-cakes__items--third, .new-cakes__items--fourth{
+                display: flex;
+                justify-content: space-between;
+             
+            }
+        }
+        
+    }
+    .mt{
+        margin-top: 90px;
+    }
+    .cake__item{
+        max-width: 200px;
+        &--img{ 
+            img{
+                width: 100%;  
+            }
+        }
+        &--body{
+            padding: 10px;
+            &-name{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                margin-bottom: 10px;
+              
+            }
+            &-rate{
+                @include font-style(16px, $ff-JostRegular, $color-grey);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                span{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            &-price{
+                @include font-style(24px, $ff-JostMedium, $color-black);
+                span{
+                    font-size: 14px;
+                    color: $color-grey;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 900px)  {
+    #new-cakes{
+        width: 100%;
+        
+        .wrapper{
+            padding-top: 15px;
+            .new-cakes__up{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin-bottom: 59px;
+            }
+            .new-cakes__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .new-cakes__items, .new-cakes__items--second, .new-cakes__items--third, .new-cakes__items--fourth{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+               
+            }
+        }
+        
+    }
+    .mt{
+        margin-top: 80px;
+    }
+    .cake__item{
+        max-width: 50%;
+    
+        &--img{ 
+            img{
+                width: 100%;  
+            }
+        }
+        &--body{
+            padding: 10px;
+            &-name{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                margin-bottom: 10px;
+              
+            }
+            &-rate{
+                @include font-style(16px, $ff-JostRegular, $color-grey);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                span{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            &-price{
+                @include font-style(24px, $ff-JostMedium, $color-black);
+                span{
+                    font-size: 14px;
+                    color: $color-grey;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 700px)  {
+    #new-cakes{
+        width: 100%;
+        
+        .wrapper{
+            padding-top: 15px;
+            .new-cakes__up{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin-bottom: 39px;
+            }
+            .new-cakes__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .new-cakes__items, .new-cakes__items--second, .new-cakes__items--third, .new-cakes__items--fourth{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+              
+            }
+        }
+        
+    }
+    .mt{
+        margin-top: 70px;
+    }
+    .cake__item{
+        max-width: 45%;
+    
+        &--img{ 
+            img{
+                width: 100%;  
+            }
+        }
+        &--body{
+            padding: 10px;
+            &-name{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                margin-bottom: 10px;
+              
+            }
+            &-rate{
+                @include font-style(16px, $ff-JostRegular, $color-grey);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                span{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            &-price{
+                @include font-style(24px, $ff-JostMedium, $color-black);
+                span{
+                    font-size: 14px;
+                    color: $color-grey;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 580px)  {
+    #new-cakes{
+        width: 100%;
+        
+        .wrapper{
+            padding-top: 50px;
+            .new-cakes__up{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin-bottom: 39px;
+                display: none;
+            }
+            .new-cakes__links{
+                @include font-style(22px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .new-cakes__items, .new-cakes__items--second, .new-cakes__items--third, .new-cakes__items--fourth{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+               
+            }
+        }
+        
+    }
+    .mt{
+        margin-top: 60px;
+    }
+    .cake__item{
+        max-width: 45%;
+    
+        &--img{ 
+            img{
+                width: 100%;  
+            }
+        }
+        &--body{
+            padding: 10px;
+            &-name{
+                @include font-style(18px, $ff-JostRegular, $color-black);
+                margin-bottom: 10px;
+              
+            }
+            &-rate{
+                @include font-style(12px, $ff-JostRegular, $color-grey);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                span{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            &-price{
+                @include font-style(16px, $ff-JostMedium, $color-black);
+                span{
+                    font-size: 12px;
+                    color: $color-grey;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 420px)  {
+    #new-cakes{
+        width: 100%;
+        
+        .wrapper{
+            padding-top: 50px;
+            .new-cakes__up{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                margin-bottom: 39px;
+                display: none;
+            }
+            .new-cakes__links{
+                @include font-style(22px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .new-cakes__items, .new-cakes__items--second, .new-cakes__items--third, .new-cakes__items--fourth{
+                display: flex;
+                justify-content: flex-start;
+                column-gap: 20px;
+                row-gap: 0px;
+                flex-wrap: nowrap;
+                overflow-x: scroll;
+               
+            }
+        }
+        
+    }
+    .mt{
+        margin-top: 50px;
+    }
+    .cake__item{
+        min-width: 240px;
+        &--img{ 
+            img{
+                width: 100%;  
+            }
+        }
+        &--body{
+            padding: 10px;
+            &-name{
+                @include font-style(16px, $ff-JostRegular, $color-black);
+                margin-bottom: 10px;
+                
+              
+            }
+            &-rate{
+                @include font-style(12px, $ff-JostRegular, $color-grey);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                span{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            &-price{
+                @include font-style(16px, $ff-JostMedium, $color-black);
+                margin-bottom: 5px;
+                span{
+                    font-size: 12px;
+                    color: $color-grey;
+                    margin-left: 10px;
+                }
+            }
+            &-btn{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                button{
+                    @include font-style(18px, $ff-JostRegular, $color-white);
+                    background-color: $color-brown;
+                    width: 180px;
+                    height: 36px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+    }
+}
+

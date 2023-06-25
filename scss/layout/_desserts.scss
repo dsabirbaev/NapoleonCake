@@ -1,0 +1,158 @@
+
+#desserts{
+    margin-top: 100px;
+    width: 100%;
+
+    .wrapper{
+        .desserts__links{
+            @include font-style(20px, $ff-JostRegular, $color-black);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            &--all{
+                color: $color-black;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .desserts__items{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1000px)  {
+    #desserts{
+        margin-top: 90px;
+        width: 100%;
+        .wrapper{
+            .desserts__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .desserts__items{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 900px)  {
+    #desserts{
+        margin-top: 80px;
+        width: 100%;
+        .wrapper{
+            .desserts__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .desserts__items{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 700px)  {
+    #desserts{
+        margin-top: 70px;
+        width: 100%;
+        .wrapper{
+            .desserts__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .desserts__items{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 580px)  {
+    #desserts{
+        margin-top: 60px;
+        width: 100%;
+        .wrapper{
+            .desserts__links{
+                @include font-style(22px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .desserts__items{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 420px)  {
+    #desserts{
+        margin-top: 50px;
+        width: 100%;
+        .wrapper{
+            .desserts__links{
+                @include font-style(22px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .desserts__items{
+                display: flex;
+                justify-content: flex-start;
+                column-gap: 20px;
+                row-gap: 0px;
+                flex-wrap: nowrap;
+                overflow-x: scroll;
+            }
+        }
+    }
+}

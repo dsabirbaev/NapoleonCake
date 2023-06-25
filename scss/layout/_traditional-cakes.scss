@@ -1,0 +1,157 @@
+
+
+#traditional-cakes{
+    margin-top: 100px;
+    width: 100%;
+    .wrapper{
+        .traditional-cakes__links{
+            @include font-style(20px, $ff-JostRegular, $color-black);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            &--all{
+                color: $color-black;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .traditional-cakes__items{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px)  {
+    #traditional-cakes{
+        margin-top: 90px;
+        width: 100%;
+        .wrapper{
+            .traditional-cakes__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .traditional-cakes__items{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 900px)  {
+    #traditional-cakes{
+        margin-top: 80px;
+        width: 100%;
+        .wrapper{
+            .traditional-cakes__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .traditional-cakes__items{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 700px)  {
+    #traditional-cakes{
+        margin-top: 70px;
+        width: 100%;
+        .wrapper{
+            .traditional-cakes__links{
+                @include font-style(20px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .traditional-cakes__items{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 580px)  {
+    #traditional-cakes{
+        margin-top: 60px;
+        width: 100%;
+        .wrapper{
+            .traditional-cakes__links{
+                @include font-style(22px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .traditional-cakes__items{
+                display: flex;
+                justify-content: space-around;
+                row-gap: 10px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 420px)  {
+    #traditional-cakes{
+        margin-top: 50px;
+        width: 100%;
+        .wrapper{
+            .traditional-cakes__links{
+                @include font-style(22px, $ff-JostRegular, $color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                &--all{
+                    color: $color-black;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .traditional-cakes__items{
+                display: flex;
+                justify-content: flex-start;
+                column-gap: 20px;
+                row-gap: 0px;
+                flex-wrap: nowrap;
+                overflow-x: scroll;
+            }
+        }
+    }
+}

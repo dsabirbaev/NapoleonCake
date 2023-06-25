@@ -1,0 +1,354 @@
+
+#recent-cakes{
+    margin-top: 100px;
+    width: 100%;
+
+    .wrapper{
+        .recent-cakes__links{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            @include font-style(26px, $ff-JostRegular, $color-black);  
+            p:first-child{
+                letter-spacing: 2.6px;
+            }
+            p:last-child{
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+            }
+        }
+        .recent-cakes__items{
+            display: flex;
+            justify-content: space-between;
+            .catalog__item{
+                max-width: 240px;
+                &--img{ 
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+                &--body{
+                    padding: 10px;
+                    &-name{
+                        @include font-style(16px, $ff-JostRegular, $color-black);
+                        margin-bottom: 10px;
+                      
+                    }
+                    &-rate{
+                        @include font-style(14px, $ff-JostRegular, $color-grey);
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+                        span{
+                            display: flex;
+                            align-items: center;
+                            column-gap: 5px;
+                        }
+                    }
+                    &-price{
+                        @include font-style(18px, $ff-JostMedium, $color-black);
+                        span{
+                            font-size: 12px;
+                            color: $color-grey;
+                            margin-left: 14px;
+                        }
+                    }
+                    &-btn{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px)  {
+    #recent-cakes{
+        margin-top: 90px;
+        width: 100%;
+    
+        .wrapper{
+            .recent-cakes__links{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                @include font-style(26px, $ff-JostRegular, $color-black);  
+                p:first-child{
+                    letter-spacing: 2.6px;
+                }
+                p:last-child{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 5px;
+                }
+            }
+            .recent-cakes__items{
+                display: flex;
+                justify-content: space-between;
+                .catalog__item{
+                    max-width: 150px;
+                    &--img{ 
+                        img{
+                            width: 100%;
+                            
+                        }
+                    }
+                    &--body{
+                        padding: 10px;
+                        &-name{
+                            @include font-style(16px, $ff-JostRegular, $color-black);
+                            margin-bottom: 10px;
+                          
+                        }
+                        &-rate{
+                            @include font-style(14px, $ff-JostRegular, $color-grey);
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                            span{
+                                display: flex;
+                                align-items: center;
+                                column-gap: 5px;
+                            }
+                        }
+                        &-price{
+                            @include font-style(18px, $ff-JostMedium, $color-black);
+                            span{
+                                font-size: 12px;
+                                color: $color-grey;
+                                margin-left: 14px;
+                            }
+                        }
+                        &-btn{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px)  {
+    #recent-cakes{
+        margin-top: 80px;
+        width: 100%;
+    
+        .wrapper{
+            .recent-cakes__links{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                @include font-style(22px, $ff-JostRegular, $color-black);  
+                p:first-child{
+                    letter-spacing: 2.6px;
+                }
+                p:last-child{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 5px;
+                }
+            }
+            .recent-cakes__items{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                row-gap: 10px;
+                flex-wrap: wrap;
+                
+                .catalog__item{
+                    max-width: 240px;
+                    &--img{ 
+                        img{
+                            width: 100%;
+                            
+                        }
+                    }
+                    &--body{
+                        padding: 10px;
+                        &-name{
+                            @include font-style(16px, $ff-JostRegular, $color-black);
+                            margin-bottom: 10px;
+                          
+                        }
+                        &-rate{
+                            @include font-style(14px, $ff-JostRegular, $color-grey);
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                            span{
+                                display: flex;
+                                align-items: center;
+                                column-gap: 5px;
+                            }
+                        }
+                        &-price{
+                            @include font-style(18px, $ff-JostMedium, $color-black);
+                            span{
+                                font-size: 12px;
+                                color: $color-grey;
+                                margin-left: 14px;
+                            }
+                        }
+                        &-btn{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px)  {
+    #recent-cakes{
+        margin-top: 80px;
+        width: 100%;
+    
+        .wrapper{
+            .recent-cakes__links{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                @include font-style(22px, $ff-JostRegular, $color-black);  
+                p:first-child{
+                    letter-spacing: 2.6px;
+                }
+                p:last-child{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 5px;
+                }
+            }
+            .recent-cakes__items{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                row-gap: 10px;
+                flex-wrap: wrap;
+                
+                .catalog__item{
+                    max-width: 210px;
+                    &--img{ 
+                        img{
+                            width: 100%;
+                            
+                        }
+                    }
+                    &--body{
+                        padding: 10px;
+                        &-name{
+                            @include font-style(16px, $ff-JostRegular, $color-black);
+                            margin-bottom: 10px;
+                          
+                        }
+                        &-rate{
+                            @include font-style(14px, $ff-JostRegular, $color-grey);
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                            span{
+                                display: flex;
+                                align-items: center;
+                                column-gap: 5px;
+                            }
+                        }
+                        &-price{
+                            @include font-style(18px, $ff-JostMedium, $color-black);
+                            span{
+                                font-size: 12px;
+                                color: $color-grey;
+                                margin-left: 14px;
+                            }
+                        }
+                        &-btn{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 580px)  {
+    #recent-cakes{
+        margin-top: 80px;
+        width: 100%;
+    
+        .wrapper{
+            .recent-cakes__links{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                @include font-style(18px, $ff-JostRegular, $color-black);  
+                p:first-child{
+                    letter-spacing: 2.6px;
+                }
+                p:last-child{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 5px;
+                }
+            }
+            .recent-cakes__items{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                row-gap: 10px;
+                flex-wrap: nowrap;
+                
+                .catalog__item{
+                    max-width: 250px;
+                    &--img{ 
+                        img{
+                            width: 100%;
+                            
+                        }
+                    }
+                    &--body{
+                        padding: 10px;
+                        &-name{
+                            @include font-style(18px, $ff-JostRegular, $color-black);
+                            margin-bottom: 10px;
+                          
+                        }
+                        &-rate{
+                            @include font-style(14px, $ff-JostRegular, $color-grey);
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                            span{
+                                display: flex;
+                                align-items: center;
+                                column-gap: 5px;
+                            }
+                        }
+                        &-price{
+                            @include font-style(16px, $ff-JostMedium, $color-black);
+                            span{
+                                font-size: 12px;
+                                color: $color-grey;
+                                margin-left: 14px;
+                            }
+                        }
+                        &-btn{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
