@@ -94,8 +94,17 @@ function renderToHTML() {
     newCakesSecond.innerHTML = cake;
     newCakesThird.innerHTML = cake;
     newCakesFourth.innerHTML = cake;
-    catalogNewCake.innerHTML = cake;
 }
   
 renderToHTML();
 
+
+//////////////////////////////////////
+
+
+const load = window.addEventListener('load', () =>{
+    const loader = document.querySelector('.loader');
+    loader.style.display = "none";
+
+    setTimeout(load, 5000);
+})
