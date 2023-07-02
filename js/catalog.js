@@ -41,7 +41,7 @@ function renderDataRecent(){
     let cake = "";
     dataRecent.map((value) => {
         cake += `
-            <div class="catalog__item">
+            <div class="catalog__item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <div class="catalog__item--img">
                     <img  title="Cake" src="${value.image}" alt="${value.name}">
                 </div>

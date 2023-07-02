@@ -69,7 +69,7 @@ function renderToHTML() {
     let cake = "";
     data.map((value) => {
         cake += `
-            <div class="cake__item">
+            <div class="cake__item" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <div class="cake__item--img">
                     <img  title="Cake" src="${value.image}" alt="${value.name}">
                 </div>
@@ -102,9 +102,11 @@ renderToHTML();
 //////////////////////////////////////
 
 
+/////////// Loader page
+
 const load = window.addEventListener('load', () =>{
     const loader = document.querySelector('.loader');
-    loader.style.display = "none";
+    loader.classList.add("loader-hidden");
 
     setTimeout(load, 5000);
 })
